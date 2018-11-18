@@ -1,0 +1,222 @@
+
+.wrapper{
+    width: 1200px;
+    height: 650px;
+    background: whitesmoke;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.title{
+    font-family: "B Nazanin";
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.dibamovie{
+    width: 400px;
+    height:500px ;
+    border: 1px solid black;
+    float: right;
+    margin-top: 30px;
+    box-shadow: 1px 1px 3px gray;
+    margin-right: 10px;
+
+
+}
+.dibamovie>img{
+    width: 350px;
+    height: 350px;
+    margin: 5px 25px;
+    border-radius: 5px ;
+    overflow: hidden;
+}
+
+.dibamovie>a{
+    display: block;
+    text-decoration: none;
+    font-family: "B Nazanin";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    width: 340px;
+    margin: 5px 25px;
+    background: white;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+.imdb{
+    width: 400px;
+    height:500px ;
+    border: 1px solid black;
+    float: left;
+    margin-top: 30px;
+    box-shadow: 1px 1px 3px gray;
+    margin-left: 10px;
+
+
+}
+.imdb>img{
+    width: 350px;
+    height: 350px;
+    margin: 5px 25px;
+    border-radius: 5px ;
+    overflow: hidden;
+}
+
+.imdb>a{
+    display: block;
+    direction: rtl;
+    text-decoration: none;
+    font-family: "B Nazanin";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    width: 340px;
+    margin: 5px 25px;
+    background: white;
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.imdbindex{
+    width: 100%;
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.contentimdb{
+    margin: 50px auto;
+}
+
+.contentimdb a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.headerimdb{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "B Nazanin";
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.alert{
+
+
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 400px;
+    height: 200px;
+    background: white;
+    box-shadow: 1px 1px 3px gray;
+    text-align: center;
+    line-height: 100px;
+    display: none;
+}
+
+
+.film2moveindex{
+    width: 100%;
+    background: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.headerdibamovie{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "B Nazanin";
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.dibamoviecontent{
+    width: 500px;
+    background: white;
+    margin: 0 auto;
+
+}
+
+.dibamoviecontent ul{
+    list-style: none;
+    direction: rtl;
+    background: whitesmoke;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px gray;
+    padding-bottom: 10px;
+
+
+}
+
+.dibamoviecontent #description{
+    padding-left: 30px;
+    text-align: justify;
+    font-family: "B Nazanin";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.dibamoviecontent #title{
+    text-align: center;
+    font-family: "B Nazanin";
+    font-weight: 400;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.dibamoviecontent #dibamovieimg{
+    width: 190px;
+    height:260px ;
+    margin-bottom: 20px;
+
+}
+
+.dibamoviecontent #dibamovieimgsource a{
+    display: block;
+    width: 180px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    background: gray;
+    border-radius: 5px;
+    line-height: 35px;
+    margin-bottom: 20px;
+
+}
+
+#imgdibamoviealert:hover{
+    background: #D7DEE0;
+}
+
+#imgimdbalert:hover{
+    background: #D7DEE0;
+
+}
